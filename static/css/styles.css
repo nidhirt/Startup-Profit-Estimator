@@ -1,0 +1,209 @@
+body {
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    padding: 0;
+    margin:0;
+    background-color:#f4f4f4;
+
+
+}
+
+
+/*global*/
+.container{
+
+    width:90%;
+    margin:auto;
+    overflow: hidden;
+    text-align: centre;
+
+}
+
+
+#main .fieldset{
+
+    margin-top :10px;
+    padding-top: 20px;
+    width: 30%;
+    min-height: 550;
+    float: right
+    
+}
+#main{
+
+    width:80%;
+    margin: auto;
+
+}
+#main .column1 {
+    margin-top :10px;
+    padding-top: 10px;
+    width: 30%;
+    min-height: 450;
+    float: left;
+}
+
+#main .result h1{
+
+    float: right
+}
+.button_1{
+    height:38px;
+    background:red;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:0;
+
+}
+
+.dark{
+
+    background-color: black;
+    padding: 25px;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:right;
+
+}
+
+
+
+/*Header*/
+
+header{
+
+    background:#35424a;
+    color: white;
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+    
+
+}
+
+header a{
+
+    color:#ffffff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size:16px;
+
+}
+
+
+
+header #branding{
+    float: centre;
+}
+header #branding h1{
+    margin:0px;
+    float: centre;
+    text-align: centre;
+}
+
+
+
+
+header .highlight{
+    color: red;
+    font-weight: bold;
+    
+}
+
+
+
+
+aside#sidebar {
+    float: right;
+    width:40%;
+    margin-top: 10px;
+  
+    
+
+}
+
+aside#sidebar input[type="text"]{
+
+
+    padding: 4px;
+    width: 200px;
+    height :25px
+}
+
+
+aside#sidebar input[type="email"]{
+
+
+    padding: 4px;
+    width: 80%;
+    height :25px
+}
+
+
+
+aside#sidebar input[type="number"]{
+
+
+    padding: 4px;
+    width: 80%;
+    height :25px
+}
+
+
+aside#sidebar input[type="text"]{
+
+
+    padding: 4px;
+    width: 80%;
+    height :25px
+}
+
+
+
+
+
+aside#sidebar .quote input, aside#sidebar .quote textarea  {
+
+    width:80%;
+    padding:5px;
+
+
+
+}
+
+
+footer{
+    padding:20px;
+    color: white;
+    background-color: red;
+    text-align: center;
+
+}
+
+/*media */
+
+@media(max-width: 768px){
+
+   header #branding,
+   header nav,
+   header nav li,
+   #newsletter h1,
+   #newsletter form,
+   #boxes .box
+   {
+       float:none;
+       text-align:center;
+       width:100%;
+
+   }
+
+   header {
+
+    padding-bottom: 20px;
+
+   }
+ 
+}

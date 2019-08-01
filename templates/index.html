@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Expense - Profit Predictor </title>
+        <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    </head>
+    <body>
+
+	<header>
+		<div class="container">
+                <div id="branding">
+                        <h1><span class="highlight">Profit </span>  Estimator (based on expenses)</h1>
+                        <p> Know how are  your expenses are related to your profit?   </p>
+                    </div>
+	    </div>
+    </header>
+    
+    <div id ="main">
+        <div class = "container">
+            <div class="column1">
+                <img src="../static/images/expense.jpg" width="400" height ="350"/>
+               
+            </div>
+
+    
+            <form action="/predict" method="POST" class="quote">
+                
+
+                <aside id = "sidebar">
+                    <div class="dark">
+                        <h3> Enter the company details</h3>
+                            <div>
+                                <label> Company Name</label> <br>
+                                <input name="name" type ="text" placeholder="Name"> <br>
+
+                            </div>
+                            <br>
+                            <div>
+                                 
+                                <label>R&D Spend</label><br>
+                                <input name="R&D" type="number" placeholder="123456...">
+
+                            </div>
+                            <br>
+
+                            <div>
+                                 
+                                <label>Administrative Spend</label><br>
+                                <input name="admin" type="number" placeholder="123456...">
+
+                            </div>
+                            <br>
+
+                            <div>
+                                 
+                                <label>Marketing Spend</label><br>
+                                <input name="marketing" type="number" placeholder="123456...">
+
+                            </div>
+                            <br>
+
+                            <div>
+                                <label> Location</label>
+                                     <select name = "location">
+                                        <option value ="NewYork"> New York</option>
+                                        <option value = "California">California</option>
+                                        <option value = "Florida">Florida</option>
+
+                                    </select>
+                            </div>
+                            <br>
+                            
+                            <input type = "submit" class="button_1" value = "Predict">
+
+                    </div>
+                
+                </aside>
+
+            </form>
+
+            </div>
+        </div>
+        
+        <footer>
+                <p> Nidhi, Copyright &copy; 2019</p>
+            </footer>
+    </body>
+</html>
