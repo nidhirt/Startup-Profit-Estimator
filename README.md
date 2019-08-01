@@ -18,8 +18,8 @@ Kaggle.com :https://www.kaggle.com/gouthamr92/50-startups
 * Built web pages HTML5
 
 
-![alt text](https://github.com/nidhirt/Startup-Profit-Estimator/blob/master/static/images/expense.jpg)
-![alt text](https://github.com/nidhirt/Startup-Profit-Estimator/blob/master/static/images/profit-768x768.png)
+![alt text](https://github.com/nidhirt/Startup-Profit-Estimator/blob/master/static/images/Screen%20Shot%202019-08-01%20at%204.09.55%20PM.png)
+![alt text](https://github.com/nidhirt/Startup-Profit-Estimator/blob/master/static/images/Screen%20Shot%202019-08-01%20at%204.10.11%20PM.png)
 
 
 
